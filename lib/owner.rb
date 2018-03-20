@@ -6,7 +6,7 @@ class Owner
 
   def initialize(name)
     @name = name
-    @species = "fish" # placeholder
+    @species = "human" # placeholder
     @pets = { }
     @@all << self
   end
