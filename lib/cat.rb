@@ -6,12 +6,9 @@ class Cat
     @name = name
   end
 
-  def name=(name)
-    @name = name
-  end
-
-  def owner
-    self.owner
+  def owner=(owner_name)
+    self.owner = owner_name
+    owner.pets << self
   end
 
 end
