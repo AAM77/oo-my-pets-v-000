@@ -8,6 +8,7 @@ class Owner
     @name = name
     @species = "fish" # placeholder
     @pets = { }
+    @@all << self
   end
 
   def self.all
