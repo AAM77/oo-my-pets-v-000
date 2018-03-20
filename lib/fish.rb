@@ -12,4 +12,5 @@ class Fish
 
   def owner
     self.owner
+  end
 end
