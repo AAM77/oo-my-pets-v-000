@@ -10,8 +10,8 @@ class Cat
     @name = name
   end
 
-  def owner=(owner_name)
-    self.owner = name
+  def owner
+    self.owner
   end
 
   def
