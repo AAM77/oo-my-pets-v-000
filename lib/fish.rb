@@ -6,10 +6,6 @@ class Fish
     @name = name
   end
 
-  def name=(name)
-    @name = name
-  end
-
   def owner
     self.owner
   end
