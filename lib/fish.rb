@@ -8,6 +8,5 @@ class Fish
 
   def owner=(owner_name)
     self.owner = owner_name
-    owner.pets << self
   end
 end
