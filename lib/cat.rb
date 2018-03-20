@@ -11,7 +11,8 @@ class Cat
   end
 
   def owner(name)
-  end 
+    
+  end
 
   def
 end
