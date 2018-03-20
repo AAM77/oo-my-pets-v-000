@@ -11,5 +11,6 @@ class Dog
   end
 
   def owner
+    self.owner
   end
 end
