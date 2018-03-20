@@ -7,8 +7,11 @@ class Cat
   end
 
   def name=(name)
-    
+    @name = name
   end
 
-  def 
+  def owner(name)
+  end 
+
+  def
 end
