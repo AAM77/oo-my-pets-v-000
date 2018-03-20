@@ -11,6 +11,9 @@ class Owner
     @@all << self
   end
 
+  def say_species
+    puts "I am a human."
+
   def self.all
     @@all
   end
