@@ -8,6 +8,10 @@ class Owner
     @pets = [ ]
   end
 
+  def self.all
+    @@all
+  end
+
   
 
 
