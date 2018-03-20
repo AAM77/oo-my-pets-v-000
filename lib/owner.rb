@@ -16,7 +16,4 @@ class Owner
     self.class.all.clear
   end
 
-
-
-
 end
