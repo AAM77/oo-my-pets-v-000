@@ -19,6 +19,9 @@ class Owner
     self.all.clear
   end
 
+  def self.count
+  end
+
   def pets
     @pets
   end
