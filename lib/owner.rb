@@ -12,7 +12,11 @@ class Owner
     @@all
   end
 
-  
+  def self.reset
+    self.class.all.clear
+  end
+
+
 
 
 end
