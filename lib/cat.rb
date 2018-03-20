@@ -14,5 +14,4 @@ class Cat
     self.owner
   end
 
-  def
 end
