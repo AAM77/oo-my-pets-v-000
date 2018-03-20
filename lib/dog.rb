@@ -1,13 +1,13 @@
 class Dog
-  attr_accessor :owner
   attr_reader :name
 
   def initialize(name)
     @name = name
   end
 
-  def owner
-    self.owner
+  def owner=(owner_name)
+    self.owner = owner_name
+    owner.pets << self
   end
 
 end
