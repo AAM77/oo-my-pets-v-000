@@ -3,7 +3,7 @@ class Fish
 
   def initialize(name)
     @name = name
-
+    @mood = "nervous"
   end
 
   def owner=(owner_name)
