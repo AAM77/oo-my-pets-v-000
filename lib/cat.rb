@@ -4,6 +4,7 @@ class Cat
 
   def initialize(name, mood)
     @name = name
+    @mood = mood
   end
 
   def owner=(owner_name)
