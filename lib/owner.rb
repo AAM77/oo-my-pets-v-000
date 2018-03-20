@@ -23,6 +23,10 @@ class Owner
   end
 
   def buy_fish
+    
+  end
+
+  def buy_cat
   end
 
 
