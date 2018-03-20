@@ -6,7 +6,7 @@ class Owner
 
   def initialize(name)
     @name = name
-    @pets = [ ]
+    @pets = { }
   end
 
   def self.all
