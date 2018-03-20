@@ -7,4 +7,5 @@ class Fish
   end
 
   def name=(name)
+    @name = name
 end
