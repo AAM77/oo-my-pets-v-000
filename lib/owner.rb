@@ -18,6 +18,10 @@ class Owner
     self.class.all.clear
   end
 
+  def pets
+    @pets
+  end
+
 
 
 end
